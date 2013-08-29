@@ -3,9 +3,9 @@ Package.describe({
 });
 
 Package._transitional_registerBuildPlugin({
-	name: "clientAndServerCodeSeparator",
+	name: "codeSeparator",
 	use: [],
 	sources: [
-		'plugin/separate-code.js'
+		'plugin/code-separator.js'
 	]
 });
