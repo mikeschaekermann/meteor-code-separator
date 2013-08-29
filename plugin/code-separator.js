@@ -8,4 +8,4 @@ var handler = function(compileStep) {
 	});
 }
 
-Plugin.registerSourceHandler("js", handler);
+Plugin.registerSourceHandler("ext", handler);
