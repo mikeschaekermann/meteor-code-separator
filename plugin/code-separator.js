@@ -1,8 +1,7 @@
 console.log('Running code-separator');
 
 var handler = function(compileStep) {
-	console.log('compile step');
-	console.log(compileStep);
+	error({ message: "Parsing file", sourcePath: compileStep.inputPath })
 }
 
 Plugin.registerSourceHandler("js", handler);
